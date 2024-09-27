@@ -45,6 +45,16 @@ entries:
   frontend:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2024-09-27T09:26:44.196904256Z"
+    description: A Helm chart for testing purposes
+    digest: c155142205572f5caa2b7086533981024359a3d3fafdb28157395da75db8592d
+    name: frontend
+    type: application
+    urls:
+    - https://github.com/nemerosa/tmp-argo/releases/download/frontend-1.0.3/frontend-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2024-09-27T09:19:34.282285648Z"
     description: A Helm chart for testing purposes
     digest: d221047af151d63c07c0703479143af1a82b97221f3a7929b7bb87787c0165dc
@@ -165,4 +175,4 @@ entries:
     urls:
     - https://github.com/nemerosa/tmp-argo/releases/download/umbrella-1.0.0/umbrella-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-27T09:24:49.714677792Z"
+generated: "2024-09-27T09:26:44.196936326Z"
