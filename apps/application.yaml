@@ -11,7 +11,7 @@ spec:
     path: charts/umbrella
     helm:
       releaseName: "umbrella"
-      valuesObject:
+      values: |
         common:
           version: "1.0"
         backend:
