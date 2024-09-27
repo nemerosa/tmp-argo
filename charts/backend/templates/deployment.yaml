@@ -23,6 +23,6 @@ spec:
             - name: COMMON_VERSION
               valueFrom:
                 configMapKeyRef:
-                  name: common-config
+                  name: backend-cm
                   key: COMMON_VERSION
       restartPolicy: Always
