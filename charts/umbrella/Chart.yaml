@@ -10,7 +10,7 @@ dependencies:
     version: "1.0.2"
   - name: backend
     repository: https://nemerosa.github.io/tmp-argo
-    version: "1.0.2"
+    version: "1.0.1"
   - name: frontend
     repository: https://nemerosa.github.io/tmp-argo
-    version: "1.0.2"
+    version: "1.0.1"
