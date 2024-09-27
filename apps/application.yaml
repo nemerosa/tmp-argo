@@ -12,12 +12,14 @@ spec:
     helm:
       releaseName: "umbrella"
       values: |
-        common:
-          version: "1.0"
         backend:
+          common:
+            version: "1.0"
           image:
             tag: "1.20"
         frontend:
+          common:
+            version: "1.0"
           image:
             tag: "1.20"
   destination:
