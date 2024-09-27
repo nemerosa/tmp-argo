@@ -8,18 +8,18 @@ spec:
   source:
     repoURL: https://nemerosa.github.io/tmp-argo
     chart: umbrella
-    targetRevision: 1.0.6
+    targetRevision: 1.1.0
     helm:
       releaseName: "umbrella"
       values: |
         common:
-          version: "1.2"
+          version: "1.0"
         backend:
           image:
-            tag: "1.22"
+            tag: "1.20"
         frontend:
           image:
-            tag: "1.22"
+            tag: "1.20"
   destination:
     server: https://kubernetes.default.svc
     namespace: test
