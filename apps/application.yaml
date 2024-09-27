@@ -13,13 +13,13 @@ spec:
       releaseName: "umbrella"
       values: |
         common:
-          version: "1.2"
+          version: "1.0"
         backend:
           image:
             tag: "3.16"
         frontend:
           image:
-            tag: "3.17"
+            tag: "3.16"
   destination:
     server: https://kubernetes.default.svc
     namespace: test
