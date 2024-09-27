@@ -8,11 +8,15 @@ spec:
   source:
     repoURL: https://github.com/nemerosa/tmp-argo.git
     targetRevision: main
-    path: charts/backend
+    path: charts/umbrella
     helm:
+      releaseName: "umbrella"
       valuesObject:
         commonVersion: "1.0"
         backend:
+          image:
+            tag: "3.15"
+        frontend:
           image:
             tag: "3.15"
   destination:

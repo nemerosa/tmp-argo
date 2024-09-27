@@ -1,0 +1,4 @@
+frontend:
+  image:
+    repository: alpine
+    tag: latest
