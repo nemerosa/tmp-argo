@@ -16,7 +16,7 @@ spec:
           version: "1.2"
         backend:
           image:
-            tag: "1.21"
+            tag: "1.22"
         frontend:
           image:
             tag: "1.22"
