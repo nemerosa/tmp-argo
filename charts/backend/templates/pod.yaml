@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-pod-backend
+spec:
+  containers:
+    - name: test-container
+      image: "{{ .Values.backend.image.repository }}:{{ .Values.backend.image.tag }}"
+      imagePullPolicy: IfNotPresent
+      env:
+        - name: COMMON_VERSION
+          valueFrom:
+            configMapKeyRef:
+              name: common-config
+              key: COMMON_VERSION
+      command: ["/bin/sh"]
+      args: ["-c", "sleep 3600"]  # Keeps the pod running for inspection
