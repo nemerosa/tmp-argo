@@ -25,4 +25,6 @@ spec:
                 configMapKeyRef:
                   name: common-config
                   key: COMMON_VERSION
+          command: ["/bin/sh"]
+          args: ["-c", "sleep 3600"]  # Keeps the pod running for inspection
       restartPolicy: Always
