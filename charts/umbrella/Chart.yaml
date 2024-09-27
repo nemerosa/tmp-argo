@@ -1,0 +1,16 @@
+apiVersion: v2
+name: test-umbrella
+description: A Helm chart for testing purposes
+type: application
+version: "1.0.0"
+appVersion: "1.0"
+dependencies:
+  - name: common
+    repository: https://nemerosa.github.io/tmp-argo
+    version: "1.0.2"
+  - name: backend
+    repository: https://nemerosa.github.io/tmp-argo
+    version: "1.0.1"
+  - name: frontend
+    repository: https://nemerosa.github.io/tmp-argo
+    version: "1.0.1"
