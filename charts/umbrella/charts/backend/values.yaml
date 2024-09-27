@@ -1,4 +1,0 @@
-backend:
-  image:
-    repository: alpine
-    tag: latest
