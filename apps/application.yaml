@@ -6,20 +6,13 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/nemerosa/tmp-argo.git
-    targetRevision: main
-    path: charts/umbrella
+    repoURL: https://nemerosa.github.io/tmp-argo
+    chart: common
+    targetRevision: 1.0.1
     helm:
-      releaseName: "umbrella"
+      releaseName: "common"
       values: |
-        common:
-          version: "1.0"
-        backend:
-          image:
-            tag: "3.15"
-        frontend:
-          image:
-            tag: "3.15"
+        version: "0.1"
   destination:
     server: https://kubernetes.default.svc
     namespace: test
