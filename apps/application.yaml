@@ -6,16 +6,15 @@ metadata:
 spec:
   project: default
   source:
-    - repoURL: https://github.com/nemerosa/tmp-argo.git
-      targetRevision: main
-      path: charts/backend
-      helm:
-        valueFiles:
-          - $values/values/backend/values.yaml
-          - $values/values/common/values.yaml
-    - repoURL: https://github.com/nemerosa/tmp-argo.git
-      targetRevision: main
-      ref: values
+    repoURL: https://github.com/nemerosa/tmp-argo.git
+    targetRevision: main
+    path: charts/backend
+    helm:
+      valuesObject:
+        commonVersion: "1.0"
+        backend:
+          image:
+            tag: "3.15"
   destination:
     server: https://kubernetes.default.svc
     namespace: default  # Replace with your target namespace
