@@ -12,7 +12,8 @@ spec:
     helm:
       releaseName: "umbrella"
       valuesObject:
-        commonVersion: "1.0"
+        common:
+          version: "1.0"
         backend:
           image:
             tag: "3.15"

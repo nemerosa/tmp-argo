@@ -2,12 +2,12 @@ apiVersion: v2
 name: test-umbrella
 description: A Helm chart for testing purposes
 type: application
-version: 0.1.2
+version: 0.1.3
 appVersion: "1.0"
 dependencies:
   - name: common
     repository: file://./charts/common
-    version: "1.0.0"
+    version: "1.0.1"
   - name: backend
     repository: file://./charts/backend
     version: "1.0.0"

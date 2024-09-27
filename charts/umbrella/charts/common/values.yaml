@@ -1,1 +1,2 @@
-commonVersion: "1.0.0"  # Default value, can be overridden via inline values in ArgoCD
+common:
+  version: "0.0.0"  # Default value, can be overridden via inline values in ArgoCD
