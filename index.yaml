@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  backend:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-09-27T08:48:03.500706621Z"
+    description: A Helm chart for testing purposes
+    digest: e176772a7d7e4197f9ca957d508c1043bab3820fdab329dbc9f1faff0e520d10
+    name: backend
+    type: application
+    urls:
+    - https://github.com/nemerosa/tmp-argo/releases/download/backend-1.0.1/backend-1.0.1.tgz
+    version: 1.0.1
   common:
   - apiVersion: v2
     appVersion: "1.0"
@@ -11,4 +22,15 @@ entries:
     urls:
     - https://github.com/nemerosa/tmp-argo/releases/download/common-1.0.2/common-1.0.2.tgz
     version: 1.0.2
-generated: "2024-09-27T08:47:09.895115813Z"
+  frontend:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-09-27T08:48:03.678761197Z"
+    description: A Helm chart for testing purposes
+    digest: 267abbd7b9cdc66598c5a1d20e0f9e99db2b7dace393057a70d15a9a84fb8e55
+    name: frontend
+    type: application
+    urls:
+    - https://github.com/nemerosa/tmp-argo/releases/download/frontend-1.0.1/frontend-1.0.1.tgz
+    version: 1.0.1
+generated: "2024-09-27T08:48:03.678766477Z"
