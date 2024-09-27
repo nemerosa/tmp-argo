@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://nemerosa.github.io/tmp-argo
     chart: umbrella
-    targetRevision: 1.0.3
+    targetRevision: 1.0.4
     helm:
       releaseName: "umbrella"
       values: |
