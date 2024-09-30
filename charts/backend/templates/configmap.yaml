@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: backend-cm
 data:
-  COMMON_VERSION: "{{ .Values.common.version }}"
+  COMMON_VERSION: {{ .Values.common.version | default .Values.global.common.version | quote }}

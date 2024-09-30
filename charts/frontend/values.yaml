@@ -1,3 +1,6 @@
+global:
+  common:
+    version: 0.0
 common:
   version: 0.0
 image:
