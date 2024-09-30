@@ -16,8 +16,10 @@ spec:
           common:
             version: "1.1"
         backend:
+          common:
+            version: "1.2"
           image:
-            tag: "1.21"
+            tag: "1.22"
         frontend:
           common:
             version: "1.2"
