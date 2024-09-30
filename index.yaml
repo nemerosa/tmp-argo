@@ -177,6 +177,23 @@ entries:
   umbrella:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2024-09-30T07:40:30.302987248Z"
+    dependencies:
+    - name: backend
+      repository: https://nemerosa.github.io/tmp-argo
+      version: 1.2.0
+    - name: frontend
+      repository: https://nemerosa.github.io/tmp-argo
+      version: 1.2.0
+    description: A Helm chart for testing purposes
+    digest: 68c1265da751c3198eed15fe23adee457f839a81c87d93b5aebc210254c1d453
+    name: umbrella
+    type: application
+    urls:
+    - https://github.com/nemerosa/tmp-argo/releases/download/umbrella-1.2.0/umbrella-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2024-09-27T09:57:21.935577213Z"
     dependencies:
     - name: backend
@@ -332,4 +349,4 @@ entries:
     urls:
     - https://github.com/nemerosa/tmp-argo/releases/download/umbrella-1.0.0/umbrella-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-30T07:35:03.348463018Z"
+generated: "2024-09-30T07:40:30.303072157Z"
